@@ -26,6 +26,7 @@ div.blueTable {
   font-size: 15px;
   font-weight: bold;
   color: #FFFFFF;
+  text-align: center;
   border-left: 2px solid #D0E4F5;
 }
 .divTable.blueTable .divTableHeading .divTableHead:first-child {
