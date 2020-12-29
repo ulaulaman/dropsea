@@ -1,0 +1,60 @@
+.sky {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://2.bp.blogspot.com/-rE0aDa5rdqY/V1qvWJ9pKQI/AAAAAAAAOes/exbx5tA-7R4CLHzEXShCeOKVFwFhW_I5QCKgB/s1600/night-sky-stars.jpg");
+}
+
+.wrapper {
+  position: relative;
+  width: auto;
+}
+
+.planet {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: #03C1EB;
+  border-radius: 50%;
+  animation: rotate 8s linear infinite;
+  box-shadow: inset 0px 5px 20px 0px rgba(50, 50, 50, 0.96);
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.moon {
+  border-radius: 50%;
+  margin: -80px;
+  width: 20px;
+  height: 20px;
+  background: #03C1EB;
+}
+
+.moon2 {
+  border-radius: 50%;
+  margin: 100px;
+  width: 10px;
+  height: 10px;
+  background: #03C1EB;
+}
+
+@keyframes rotate2 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.moon-spinner {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: -80px;
+  left: 0%;
+  border-radius: 50%;
+  animation: rotate2 4s linear infinite;
+}
