@@ -4,5 +4,4 @@
 #cit::after { content: close-quote; }
 #cit { 
 	quotes: "«" "»" "‘" "’";
-	font-style: italic;
 }
