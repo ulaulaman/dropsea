@@ -70,3 +70,12 @@ div.blueTable {
 .divTableHeading { display: table-header-group;}
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
+
+/* citazioni */
+
+#cit::before { content: open-quote; }
+	#cit::after { content: close-quote; }
+	#cit { 
+		quotes: "«" "»" "‘" "’";
+		font-style: italic;
+	}
