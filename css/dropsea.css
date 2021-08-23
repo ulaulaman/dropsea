@@ -9,4 +9,4 @@
 /* messaggi */
 
 #messaggio { font-style: italic; }
-#messaggio::before { content: "Messaggio"; }
+#messaggio::before { content: "Saluti a tutti"; }
