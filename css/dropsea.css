@@ -5,3 +5,8 @@
 #cit { 
 	quotes: "«" "»" "‘" "’";
 }
+
+/* messaggi */
+
+#messaggio { font-style: italic; }
+#messaggio::before { content: "Messaggio"; }
