@@ -28,5 +28,5 @@
 
 /* messaggi */
 
-#messaggio { font-style: italic; }
-#messaggio::before { content: "Saluti a tutti"; }
+#astroverne { font-style: italic; }
+#astroverne::after { content: "Per mantenere una coerenza con la medesima serie su EduINAF, anche qui la serie di recensioni versiane viene griffata come 'I viaggi astrostraordinari'. Questa è una recensione della serie."; }
