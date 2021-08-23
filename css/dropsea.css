@@ -29,4 +29,4 @@
 /* messaggi */
 
 #astroverne { font-style: italic; }
-#astroverne::after { content: "Per mantenere una coerenza con la medesima serie su EduINAF, anche qui la serie di recensioni versiane viene griffata come 'I viaggi astrostraordinari'. Questa è una recensione della serie."; }
+#astroverne::after { content: "Per mantenere una coerenza con la <a href='https://edu.inaf.it/collezioni/i-viaggi-astrostraordinari/' target='eduinaf'>medesima serie su EduINAF</a>, anche qui la serie di recensioni versiane viene griffata come 'I viaggi astrostraordinari'. Questa è una recensione della serie."; }
