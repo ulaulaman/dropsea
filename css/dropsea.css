@@ -29,6 +29,4 @@
 /* messaggi */
 
 #astroverne { font-style: italic; }
-#astroverne::before { content: "Per mantenere una coerenza con la medesima serie su EduINAF, anche qui la serie di recensioni versiane viene griffata come 'I viaggi astrostraordinari'. Questa è una recensione della serie."; }
-
-#verne1 { content attr(https://edu.inaf.it/news/per-la-scuola/i-viaggi-astrostraordinari/); }
+#astroverne::before { content: "I Viaggi straordinari sono tutti i romanzi scritti da Jules Verne, i 54 pubblicati tra il 1863 e il 1905 e gli 8 usciti postumi tra il 1905 e il 1919. E questa è la recensione di uno di essi."; }
