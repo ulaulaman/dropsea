@@ -30,3 +30,7 @@
 
 #astroverne { font-style: italic; }
 #astroverne::before { content: "I Viaggi straordinari sono tutti i romanzi scritti da Jules Verne, i 54 pubblicati tra il 1863 e il 1905 e gli 8 usciti postumi tra il 1905 e il 1919. E questa è la recensione di uno di essi."; }
+
+/* messaggi nascosti */
+
+.extra { display: none; }
