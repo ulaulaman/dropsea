@@ -50,11 +50,11 @@ euro, dollaro {
 }
 
 euro::before {
-    content: " - €";
+    content: " - € ";
 }
 
 dollaro::before {
-    content: " - $";
+    content: " - $ ";
 }
 isbn {
     display: block;
