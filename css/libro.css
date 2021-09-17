@@ -3,6 +3,11 @@ scheda {
     margin: 15px; padding: 5px 5px 5px 5px; background: #fafafa; border: 1px solid #4284b0;
 }
 
+scheda::before {
+    font-weight: bold;
+    content: "Abbiamo parlato di:";
+}
+
 titolo {
     display: block;
     font-style: italic;
