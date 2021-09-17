@@ -37,4 +37,32 @@ uscita::before {
     content: " - ";
 }
 
+formato {
+    display: block;
+}
+
+pag {
+    font-weight: normal;
+}
+
+pag::after {
+    content: " pagine, "
+}
+
+euro, dollaro {
+    font-weight: lighter;
+}
+
+euro::before {
+    content: " - €";
+}
+
+dollaro::before {
+    content: " - $";
+}
+isbn {
+    display: block;
+    font-weight: lighter;
+}
+
 /* <formato></formato><euro></euro><isbn></isbn> */
