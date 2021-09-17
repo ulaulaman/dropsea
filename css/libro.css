@@ -3,15 +3,37 @@ scheda {
 }
 
 titolo {
+    display: block;
     font-style: italic;
 }
 
 autore {
+    display: block;
     font-weight: bold;
 }
 
 autore::before {
-    content: "di";
+    content: "di ";
 }
 
-/* <trad></trad><ed></ed><data></data><formato></formato><euro></euro><isbn></isbn> */
+trad {
+    display: block;
+}
+
+trad::before {
+    content: "traduzione di ";
+}
+
+ed {
+    display: block;
+}
+
+uscita {
+    font-weight: normal;
+}
+
+uscita::before {
+    content: " - ";
+}
+
+/* <formato></formato><euro></euro><isbn></isbn> */
