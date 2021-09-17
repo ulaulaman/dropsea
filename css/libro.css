@@ -13,10 +13,6 @@ autore {
     font-weight: bold;
 }
 
-autore::before {
-    content: "di ";
-}
-
 trad {
     display: block;
 }
