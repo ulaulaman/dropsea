@@ -50,7 +50,7 @@ pag::after {
     content: " pagine, "
 }
 
-euro, dollaro {
+euro, dollaro, lira {
     font-weight: lighter;
 }
 
@@ -61,9 +61,12 @@ euro::before {
 dollaro::before {
     content: " - $ ";
 }
+
+lira::before {
+    content: " - £ ";
+}
+
 isbn {
     display: block;
     font-weight: lighter;
 }
-
-/* <formato></formato><euro></euro><isbn></isbn> */
