@@ -1,10 +1,10 @@
 /* caption */
 
 #caption {
-	background: rgb(249, 249, 249);
-	border: 1px solid rgb(204, 204, 204);
+	background: #f9f9f9;
+	border: 1px solid #cccccc;
 	color: #262626;
-	font-family: Arial, sans-serif;
+	font-family: 11px/1.4em Arial, sans-serif;
 	font-size: 11px;
 	font-stretch: normal;
 	line-height: 1.4em;
@@ -12,6 +12,30 @@
 	outline: 0px;
 	padding: 5px;
 	text-align: center; vertical-align: baseline;
+}
+
+.caption {
+	background-color: #f9f9f9;
+	border: 1px solid #cccccc;
+	padding: 3px;
+	font: 11px/1.4em Arial, sans-serif;
+}
+
+.caption picture img {
+	border: 1px solid #cccccc;
+	vertical-align:middle;
+	margin-bottom: 3px;
+	width:92%;
+}
+
+.right {
+	margin: 0.5em 0pt 0.5em 0.8em;
+	float:right; 
+}
+
+.left {
+	margin: 0.5em 0.8em 0.5em 0;
+	float:left;
 }
 
 #box {
