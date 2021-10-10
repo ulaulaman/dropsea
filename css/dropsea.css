@@ -52,6 +52,16 @@ blockquote {
 	border-left: 3px solid #6d90d6;
 }
 
+/* img */
+
+.pic {
+	padding-top: 5px;
+}
+
+.pic img {
+	width:95%;
+}
+
 /* citazioni */
 
 #cit::before { content: open-quote; }
