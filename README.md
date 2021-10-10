@@ -1,6 +1,6 @@
 Raccolta dei file .css e degli script utilizzati per [*DropSea*](https://dropseaofulaula.blogspot.com/) e [*ScienceBackstage*](https://sciencebackstage.blogspot.com/) e gli altri miei blog. Tutti i link per l'incorporazione sono generati con [jsDelivr](https://www.jsdelivr.com/)
 
-* Stile per il blog *DropSea*: *link* da usare per l'incorporazione -> https://cdn.jsdelivr.net/gh/ulaulaman/dropsea@[codice commit]/dropsea_styles.css
+* Stile per il blog *DropSea*: [*link* da usare per l'incorporazione](https://cdn.jsdelivr.net/gh/ulaulaman/dropsea @[codice commit]/dropsea_styles.css)
 
 Gli altri css sono
 * [dropsea.css](css/dropsea.css) - Il *css* con tutte le personalizzazioni rispetto al tema
