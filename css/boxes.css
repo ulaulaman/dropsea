@@ -69,3 +69,21 @@
 /* messaggi nascosti */
 
 .extra { display: none; }
+
+/* link */
+
+a.wiki:hover::after {
+	content: " 📖";
+}
+
+a.eduinaf:hover::after {
+	content: " 🔵";
+}
+
+a.out:hover::after {
+	content: " 🔗";
+}
+
+a.github:hover::after {
+	content: url('../img/icons8-github-16.png');
+}
