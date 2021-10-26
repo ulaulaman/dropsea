@@ -85,5 +85,5 @@ a.out:hover::after {
 }
 
 a.github:hover::after {
-	content: url('../img/icons8-github-16.png');
+	content: url('../img/icons8-github.svg');
 }
