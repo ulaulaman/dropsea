@@ -86,4 +86,5 @@ a.out:hover::after {
 
 a.github:hover::after {
 	content: url('../img/icons8-github.svg');
+	width: 12px;
 }
