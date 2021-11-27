@@ -17,6 +17,19 @@ Definito uno [schema *css*](https://github.com/ulaulaman/dropsea/blob/master/css
 
 **Esempio**:
 
-&lt;scheda&gt;&lt;titolo&gt;DropSea&lt;/titolo&gt;&lt;autore>Gianluigi Filippelli&lt;/autore>&lt;trad>Un traduttore&lt;/trad>&lt;ed>Me stesso&lt;uscita>2002&lt;/uscita>&lt;/ed>&lt;formato>&lt;pag>3000&lt;/pag>brossurato&lt;euro>10&lt;/euro>&lt;/formato>&lt;isbn>isbn&lt;/isbn>&lt;/scheda>
+&lt;scheda&gt;
+    &lt;titolo&gt;DropSea&lt;/titolo&gt;
+    &lt;autore>Gianluigi Filippelli&lt;/autore>
+    &lt;trad>Un traduttore&lt;/trad>
+    &lt;ed>Me stesso
+        &lt;uscita>2002&lt;/uscita>
+    &lt;/ed>
+    &lt;formato>
+        &lt;pag>3000&lt;/pag>
+        brossurato
+        &lt;euro>10&lt;/euro>
+    &lt;/formato>
+    &lt;isbn>isbn&lt;/isbn>
+&lt;/scheda>
 
 In alternativa a &lt;euro> si possono usare anche le *tag* &lt;dollaro> e &lt;lira>
