@@ -32,4 +32,4 @@ Definito uno [schema *css*](https://github.com/ulaulaman/dropsea/blob/master/css
     &lt;isbn>isbn&lt;/isbn>
 &lt;/scheda>
 
-In alternativa a &lt;euro> si possono usare anche le *tag* &lt;dollaro> e &lt;lira>
+In alternativa a &lt;euro> si possono usare anche le *tag* &lt;dollaro> e &lt;lira>.
