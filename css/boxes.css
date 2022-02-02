@@ -88,3 +88,7 @@ a.github:hover::after {
 	content: url('../img/icons8-github.svg');
 	width: 12px;
 }
+
+a.inducks:hover::after {
+	content: " 🦆";
+}
